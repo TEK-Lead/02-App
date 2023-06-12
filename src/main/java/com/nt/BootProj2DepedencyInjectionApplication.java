@@ -11,6 +11,8 @@ public class BootProj2DepedencyInjectionApplication {
 
 	public static void main(String[] args) {
 ApplicationContext ctx=SpringApplication.run(BootProj2DepedencyInjectionApplication.class, args);
+
+
 	
 	 Student st=ctx.getBean("stud",Student.class);
         st.preparation("CTS-Interview");		
